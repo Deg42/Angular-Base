@@ -8,4 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string = 'Counter App';
   number: number = 10;
+
+  add(){
+    this.number += 1;
+  }
+
+  substract(){
+    this.number -= 1;
+  }
 }
