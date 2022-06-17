@@ -5,12 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
-  title : string = 'Counter App';
-  number: number = 10;
-  base  : number = 5;
-
-  accumulate(value: number) {
-    this.number += value;
-  }
-}
+export class AppComponent {}
