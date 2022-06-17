@@ -9,11 +9,7 @@ export class AppComponent {
   title: string = 'Counter App';
   number: number = 10;
 
-  add(){
-    this.number += 1;
-  }
-
-  substract(){
+  accumulate(value: number){
     this.number -= 1;
   }
 }
